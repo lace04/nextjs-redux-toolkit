@@ -1,9 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este es un [Next.js](https://nextjs.org/) proyecto con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next.js + TailwindCSS + Redux Toolkit
 
-First, run the development server:
+Este es un proyecto creado con Next.js, TailwindCSS y Redux Toolkit.
 
+## Screenshots
+![Screenshot #1](./public/sc.png)
+
+## Instalación
+
+1. Clona el repositorio.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Ejecuta `npm run dev` para iniciar el servidor de desarrollo.
 ```bash
 npm run dev
 # or
@@ -12,23 +20,30 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js para el marco de trabajo de React.
+- TailwindCSS para el diseño y estilos.
+- Redux Toolkit para la gestión del estado.
+- React Redux para conectar componentes de React con el estado de Redux.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el resultado.
 
-## Learn More
+Puedes empezar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente mientras editas el archivo.
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Aprende más
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para aprender más sobre Next.js, echa un vistazo a los siguientes recursos:
 
-## Deploy on Vercel
+- [Documentación de Next.js](https://nextjs.org/docs) - aprende sobre las características y API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Puedes visitar [el repositorio de Next.js en GitHub](https://github.com/vercel/next.js/) - ¡tu feedback y contribuciones son bienvenidos!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Despliegue en Vercel
+
+La forma más fácil de desplegar tu aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
+
+Consulta nuestra [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para obtener más detalles.
